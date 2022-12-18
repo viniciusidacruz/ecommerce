@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 
-import { Footer } from '../../src/global/components/Footer';
+import { Footer } from '../../src/global/components';
 import { THEME_DEFAULT } from '../../src/global/styles/theme';
 
 describe('Home', () => {
