@@ -12,7 +12,8 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"prettier": "prettier --write ."
+		"prettier": "prettier --write .",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"@next/font": "13.0.7",
@@ -33,6 +34,7 @@
 	},
 	"devDependencies": {
 		"@types/styled-components": "^5.1.26",
-		"git-commit-msg-linter": "^4.4.0"
+		"git-commit-msg-linter": "^4.4.0",
+		"husky": "^8.0.2"
 	}
 }
