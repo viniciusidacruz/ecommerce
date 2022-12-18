@@ -14,7 +14,8 @@
 		"lint": "next lint",
 		"prettier": "prettier --write .",
 		"prepare": "husky install",
-		"test": "jest"
+		"test": "jest",
+		"test:watch": "jest --watch"
 	},
 	"dependencies": {
 		"@next/font": "13.0.7",
