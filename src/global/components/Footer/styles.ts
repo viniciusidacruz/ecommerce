@@ -23,7 +23,7 @@ export const ListIcons = styled.div`
 	gap: 0.875rem;
 `;
 
-export const WrapperCopy = styled.div`
+export const WrapperCopy = styled.footer`
 	display: flex;
 	align-items: center;
 	height: 2rem;
