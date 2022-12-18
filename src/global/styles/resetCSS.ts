@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 export const ResetCSS = createGlobalStyle`
 	* {
@@ -36,4 +36,11 @@ export const ResetCSS = createGlobalStyle`
 		cursor: not-allowed;
 		opacity: 0.6;
 	}
+`;
+
+export const Container = styled.div`
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 2rem;
 `;
