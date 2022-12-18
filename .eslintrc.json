@@ -13,6 +13,6 @@
 		]
 	},
 	"env": {
-		"jest/globals": true
+		"jest": true
 	}
 }
