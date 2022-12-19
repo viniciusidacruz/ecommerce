@@ -1,4 +1,5 @@
 import { Container } from '../../styles/resetCSS';
+import { Button } from '../Button';
 import { Drawer } from '../Drawer';
 import { Logo } from '../Logo';
 import * as Styles from './styles';
@@ -9,7 +10,7 @@ export function Header() {
 			<Container>
 				<Logo />
 
-				<button>Entrar</button>
+				<Button title="Entrar" variant="secondary" />
 
 				<Drawer />
 			</Container>
