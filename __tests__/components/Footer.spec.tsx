@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import { Footer } from '../../src/global/components';
 import { THEME_DEFAULT } from '../../src/global/styles/theme';
 
-describe('Home', () => {
+describe('Footer', () => {
 	it('Should renders descriptions', () => {
 		const { getByText } = render(
 			<ThemeProvider theme={THEME_DEFAULT}>

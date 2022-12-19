@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { Fragment } from 'react';
 
+import { Logo } from '../Logo';
+
 import { Container } from '../../styles/resetCSS';
 import * as Styles from './styles';
 import { ICONS } from './__mocks__/icons';
@@ -10,7 +12,8 @@ export function Footer() {
 		<Fragment>
 			<Styles.Wrapper>
 				<Container>
-					<span>Logo</span>
+					<Logo />
+
 					<p>
 						Desenvolvido por Vinicius Italo para aperfeiçoamento de técnologias
 						da programação front-end
