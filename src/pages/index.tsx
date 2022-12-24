@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { Fragment } from 'react';
+import { Heading } from '../global/components';
 
 export default function Home() {
 	return (
@@ -8,7 +9,7 @@ export default function Home() {
 				<title>First Page</title>
 			</Head>
 			<main>
-				<h1>Hello World</h1>
+				<Heading title="Hello World" level={1} color="brand" fontSize="xlg" />
 			</main>
 		</Fragment>
 	);
